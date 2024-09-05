@@ -1,0 +1,106 @@
+.payment {
+	background-color: white;
+}
+
+.payment__container > h1 {
+	text-align: center;
+	padding: 10px;
+	font-weight: 400;
+	background-color: rgb(234, 237, 237);
+	border-bottom: 1px solid lightgray;
+}
+
+.payment__container > h1 a {
+	text-decoration: none;
+}
+
+.payment__section {
+	display: flex;
+	padding: 20px;
+	margin: 0 20px;
+	border-bottom: 1px solid lightgray;
+}
+
+.payment__title {
+	flex: 0.2;
+}
+
+.payment__address,
+.payment__items,
+.payment__details {
+	flex: 0.8;
+}
+
+.payment__details > form {
+	max-width: 400px;
+	margin-left: 6.5rem;
+}
+
+.payment__details > h3 {
+	padding-bottom: 20px;
+}
+
+.payment__details > form > div > button {
+	background: #f0c14b;
+	border-radius: 2px;
+	width: 100%;
+	height: 30px;
+	border: 1px solid;
+	font-weight: bolder;
+	margin-top: 10px;
+	border-color: #a88734 #9c7e31 #846a29;
+	color: #111;
+}
+
+.payment__details {
+	margin-top: 20px;
+}
+
+.card {
+	background-color: white;
+	padding: 10px 20px 11px;
+	border-radius: 5px;
+	width: 90%;
+	border: 1px solid #afafaf;
+	box-shadow: 0px 4px 5.5px 0px rgba(0, 0, 0, 0.07);
+	margin-bottom: 20px;
+}
+.radio_buttons {
+	display: flex;
+	justify-content: space-around;
+}
+
+.payment__content {
+	width: 50%;
+}
+
+.total__value {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.crypto_paymentContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.total__value > input {
+	height: 30px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	background-color: white;
+	width: 98%;
+}
+
+.arrow__icon {
+	font-size: 25px;
+	margin-left: 45%;
+}
+
+.title {
+	font-weight: 500;
+}
